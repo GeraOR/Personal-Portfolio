@@ -1,3 +1,3 @@
-# Basic-HTML-Website
-Basic HTML Website Project
-https://roadmap.sh/projects/basic-html-website
+# Personal-Portfolio
+Project of a Personal-Portfolio with CSS
+https://roadmap.sh/projects/portfolio-website
