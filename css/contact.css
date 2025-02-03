@@ -39,3 +39,13 @@ button:hover{
     background-color: #ff3a00;
     color: #cccccc;
 }
+input, textarea{
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in-out;
+}
+input:hover, textarea:hover{
+    opacity: 1;
+}
+input:focus, textarea:focus{
+    opacity: 1;
+}
