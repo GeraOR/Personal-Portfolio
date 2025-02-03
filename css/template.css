@@ -35,6 +35,10 @@ nav ul li a:hover {
     color: #ff0000;
 }
 
+.active{
+    color: #ff0000;
+}
+
 footer {
     background-color: rgb(0, 0, 0);
     padding: 20px;
