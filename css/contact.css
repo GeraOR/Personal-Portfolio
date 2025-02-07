@@ -24,6 +24,7 @@ input, textarea{
     margin-bottom: 10px;
     border-radius: 5px;
     color: black;
+    box-sizing: border-box;
 }
 button{
     width: 50%;
