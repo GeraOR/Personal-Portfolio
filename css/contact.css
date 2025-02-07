@@ -20,11 +20,15 @@ label{
 }
 input, textarea{
     width: 100%;
-    padding: 5px 0;
+    padding: 5px ;
     margin-bottom: 10px;
     border-radius: 5px;
     color: black;
     box-sizing: border-box;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in-out;
+    outline: none;
+    resize: none;
 }
 button{
     width: 50%;
@@ -39,15 +43,12 @@ button:hover{
     background-color: #ff3a00;
     color: #cccccc;
 }
-input, textarea{
-    opacity: 0.9;
-    transition: opacity 0.3s ease-in-out;
-}
 input:hover, textarea:hover{
     opacity: 1;
 }
 input:focus, textarea:focus{
     opacity: 1;
+    border: 2px solid #cc0033;
 }
 @media screen and (max-width: 600px) {
     main {
