@@ -40,3 +40,8 @@ article{
 .github:hover{
     color: #ff0000;
 }
+@media screen and (max-width: 600px) {
+    main {
+        width: 80%;
+    }
+}
