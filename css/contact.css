@@ -25,7 +25,7 @@ input, textarea{
     border-radius: 5px;
     color: black;
     box-sizing: border-box;
-    opacity: 0.9;
+    background-color: rgb(255, 255, 255, 0.9);
     transition: opacity 0.3s ease-in-out;
     outline: none;
     resize: none;
@@ -44,10 +44,10 @@ button:hover{
     color: #cccccc;
 }
 input:hover, textarea:hover{
-    opacity: 1;
+    background-color: rgb(255, 255, 255, 1);
 }
 input:focus, textarea:focus{
-    opacity: 1;
+    background-color: rgb(255, 255, 255, 1);
     border: 2px solid #cc0033;
 }
 @media screen and (max-width: 600px) {
