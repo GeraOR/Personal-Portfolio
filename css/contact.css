@@ -26,9 +26,13 @@ input, textarea{
     color: black;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255, 0.9);
-    transition: opacity 0.3s ease-in-out;
+    transition: background-color .3s ease-in-out;
     outline: none;
     resize: none;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
 }
 button{
     width: 50%;
