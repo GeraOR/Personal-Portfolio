@@ -16,7 +16,7 @@ header {
     border-bottom: 1px solid #cccccc;
     width: 100%;
     top: 0;
-    position: fixed;
+    position: relative;
 }
 nav ul {
     list-style-type: none;
